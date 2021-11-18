@@ -1,23 +1,23 @@
 
 /* Front Part is here */
 .front_Banner{
-  background-color: rgba(5, 5, 5, 1);
-  background-image: url(/portfolio/front/view/img/Tinsaeget.jpg); 
+  background-color: #420d79;
+  background-image: url(/portfolio/front/view/img/Tinsaeget1.jpg); 
   background-repeat: no-repeat; background-size: cover; min-height: 700px;
-  background-position: 85% 50%; 
+  background-position: 50% 50%; 
   margin-top: 0px;
   
 }
 .banner_Content{
-  position: absolute; top:100px; left: 0px; width: 100%; background-color: rgba(5, 5, 5, 0.5);
+  position: absolute; top:100px; left: 0px; width: 100%;
 }
 .banner_Content h1{
   font-weight: bold; color: rgb(247, 176, 253); padding: 0 15px 0 15px;
   
 }
 .banner_Content p{
-  font-weight: lighter; color: rgb(249, 204, 253); padding: 10px 15px 5px 15px;
-  font-size: 17px; line-height: 1.5; text-align: left;
+  font-weight: 400; color: rgb(247, 176, 253); padding: 10px 15px 5px 15px;
+  font-size: 17px; line-height: 1.5; text-align: left; 
 }    
 .banner_Content a{
   padding: 10px 20px; display: inline-block; margin: 0 0 15px 15px; border-radius: 3px; 
@@ -25,7 +25,7 @@
   
 }
 .banner_Btn_1{
-  background-color: rgb(29, 05, 57);  color: rgb(249, 204, 253);
+  background-color: rgb(18, 5, 77);  color: rgb(249, 204, 253);
 }
 .banner_Btn_1:hover{
   background-color: rgb(249, 204, 253); color: rgb(29, 05, 57); cursor: pointer;
@@ -44,28 +44,30 @@
   color: brown;
 }
 
+
 @media screen and (min-width: 0px) and (max-width: 300px){
   .front_Banner{
-    background-color: rgba(5, 5, 5, 1);
+    background-color: #420d79;
     background-image: url(/portfolio/front/view/img/Tinsaeget.jpg);
     background-repeat: no-repeat; background-size: cover; min-height: 800px; height: auto;
-    background-position: center; background-position: center 50%; 
+    background-position: center; background-position: 50% 50%; 
     display: block;
     margin-top: -80px;
   }
   .banner_Content{
-    position: absolute; top:100px; left: 0px; width: 100%; background-color: rgba(5, 5, 5, 0.5);
+    position: absolute; top:100px; left: 0px; width: 100%;
     display: inline-block;
   }
   .banner_Content p{
     font-weight: lighter; color: rgb(249, 204, 253); padding: 10px 15px 5px 15px;
     font-size: 17px; line-height: 1.5; text-align: left; overflow-y: auto; height: 300px;
   }  
+  
 }
 
 @media screen and (min-width: 992px){
   .front_Banner{
-    background-color: rgba(5, 5, 5, 1);
+    background-color: #420d79;
     background-image: url(/portfolio/front/view/img/Tinsaeget.jpg); 
     background-repeat: no-repeat; background-size: cover; min-height: 700px;
     background-position: center; background-position: center 50%; 
@@ -78,7 +80,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 991px){
   .front_Banner{
-    background-color: rgba(5, 5, 5, 1);
+    background-color: #420d79;
     background-image: url(/portfolio/front/view/img/Tinsaeget.jpg); 
     background-repeat: no-repeat; background-size: cover; min-height: 700px;
     background-position: center; background-position: center 50%; 
@@ -92,7 +94,7 @@
 
 /* What i do Part is here */
 .whatIDO_Title{
-  margin: 50px 0 0;
+  margin: 80px 0 0;
 }
 
 .whatIDO_Title h1{
@@ -103,15 +105,16 @@
 }
 @media screen and (min-width: 992px){
   .whatIDO_Title{
-    margin: 50px 0;
+    margin: 80px 0 50px;
   }
 }
 
 .whatIDo_Icon{
-  color: rgb(29, 05, 57, 1); font-size: 55px; text-align: center;
+  color: rgb(18, 5, 77); font-size: 55px; text-align: center;
+  margin-bottom: 50px;
 }
 .whatIDo_List{
-  font-weight: normal; font-size: 18px; text-align: center; line-height: 1.5; list-style-type: none; margin: 0px; padding: 0px;
+  font-weight: normal; font-size: 18px; text-align: left; line-height: 1.5; list-style-type: none; margin: 0px; padding: 0px;
 }
 .whatIDo_List li{
   padding: 5px 0;
@@ -120,10 +123,10 @@
 
 /* Proficiency Part is here */
 .proficiency_Title{
-  margin: 50px 0 30px;
+  margin: 80px 0 30px;
 }
 .proficiency_Title h1{
-  text-align:left; font-weight: 400; color: rgb(29, 05, 57, 1);
+  text-align:left; font-weight: 500; color: rgb(29, 05, 57, 1);
 }
 .proficiency_Progress h5{
   text-transform: uppercase;
@@ -170,7 +173,7 @@
   color: rgb(29, 05, 57); padding: 10px 15px;
 }
 .education_In time{
-  color: rgb(249, 204, 253); padding: 3px 15px; background-color: rgb(29, 05, 57); border-radius: 5px; margin-left: 15px;
+  color: rgb(249, 204, 253); padding: 3px 15px; background-color: rgb(18, 5, 77); border-radius: 5px; margin-left: 15px;
 }
 
 /* Education part is here */
@@ -187,12 +190,12 @@
 }
 .experience_In div{
   background-color: rgb(250, 246, 246); 
-  height: 500px; 
+  padding-bottom: 25px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
   border-radius: 5px;
 }
 .experience_In div h3{
-  text-align: center; padding: 40px 15px; color: white; background-color: rgb(29, 05, 57); border-top-left-radius: 5px; border-top-right-radius: 5px;
+  text-align: center; padding: 40px 15px; color: white; background-color: #12054d; border-top-left-radius: 5px; border-top-right-radius: 5px;
 }
 .experience_In div h4{
   text-align: center; padding: 0 15px; color: rgb(29, 05, 57);
@@ -215,11 +218,16 @@
 /* Experience Part is here */
 
 /* Projects Part is here */
+.projects_Upper{
+  padding-right: 15px;
+  padding-left: 15px;
+}
 .projects_Top h1{
   color: rgb(29, 05, 57);
 }
 .projects_In{
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; margin: 20px 0;
+  padding-bottom: 35px;
 }
 .projects_In h3{
   text-align: left; padding: 20px 0px 10px; color: rgb(29, 05, 57);
@@ -228,7 +236,12 @@
   text-align: left; padding: 20px 0px 0px; color: rgb(29, 05, 57);
 }
 .projects_In p{
-  color: rgb(7, 7, 7); padding: 5px 0; font-weight: 500; font-size: 16px; line-height: 1.5; text-align: left;
+  color: rgb(7, 7, 7); 
+  padding: 5px 0; 
+  font-weight: 500; 
+  font-size: 16px; 
+  line-height: 1.5; 
+  text-align: left;
 }
 .projects_In div i{
   color: rgb(7, 7, 7); font-size: 25px;
