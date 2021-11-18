@@ -186,13 +186,14 @@
   color: rgb(29, 05, 57);
 }
 .experience_In{
-  margin-bottom: 70px;
+  margin-bottom: 70px; 
 }
 .experience_In div{
   background-color: rgb(250, 246, 246); 
   padding-bottom: 25px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
   border-radius: 5px;
+  min-height: 500px;
 }
 .experience_In div h3{
   text-align: center; padding: 40px 15px; color: white; background-color: #12054d; border-top-left-radius: 5px; border-top-right-radius: 5px;
