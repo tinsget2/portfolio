@@ -269,7 +269,7 @@ function header_Element(active_Menu, active_Drop = null){
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>                        
                 </button>
-                <a class="navbar-brand" href="index.html"><img src="/portfolio/header/view/img/Tinsae.svg" style="width: 200px; height: 50px;"></a>
+                <a class="navbar-brand" href="index.html"><img src="/portfolio/header/view/img/Tinsae.png" alt="Tinsae Getachew" style="width: 200px; height: 50px;"></a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
